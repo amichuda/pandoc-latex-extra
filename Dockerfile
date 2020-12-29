@@ -1,2 +1,2 @@
 FROM pandoc/latex:latest
-RUN apk --no-cache add texmf-dist
+RUN apk --no-cache add texlive-full texmf-dist
